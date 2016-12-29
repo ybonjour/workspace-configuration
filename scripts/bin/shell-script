@@ -1,0 +1,12 @@
+#!/bin/bash
+
+set -e
+
+dir=$(cd -P -- "$(dirname -- "$0")" && pwd -P)
+
+file=$1
+script_template=$dir/../script-template.sh.cat
+
+touch $file
+cat $script_template > $file
+chmod u+x $file
