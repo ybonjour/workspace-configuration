@@ -1,4 +1,4 @@
 alias ll='ls -alhFG'
 alias s='sublime'
 alias f='tail -f'
-alias ss=shell-script
+alias ss='shell-script'
