@@ -1,4 +1,5 @@
 source ~/.aliases
+source ~/.npm-completion
 
 DEFAULT_JAVA_VERSION=1.7
 DEV_ROOT=~/dev
