@@ -1,0 +1,48 @@
+#!/usr/bin/env bash
+
+set -o errexit
+set -o pipefail
+
+dir=$(cd -P -- "$(dirname -- "$0")" && pwd -P)
+
+if [ -z "$1" ] || [ -z "$2" ]; then
+	echo "USAGE: connect <host> <port>"
+	exit 1
+fi
+
+host="$1"
+port="$2"
+
+if [ -z "${CONNECT_CONFIG}" ]; then
+	(>&2 echo "ERROR: CONNECT_CONFIG environment variable not defined")
+	(>&2 echo "You need to set the CONNECT_CONFIG environment variable to the location of the connect configuration file")
+	exit 1
+fi
+
+config="${CONNECT_CONFIG}"
+
+if [ ! -e "${config}" ]; then
+	(>&2 echo "ERROR: Config file not found at ${config}")
+	exit 1
+fi
+
+source ${config}
+
+if [ -z "${remote_host}" ]; then
+	(>&2 echo "ERROR: remote_host not set in ${config}")
+	exit 1
+fi
+
+if [ -z "${remote_user}" ]; then
+	(>&2 echo "ERROR: remote_user not set in ${config}")
+	exit 1
+fi
+
+remote="${remote_user}@${remote_host}"
+
+echo "SSH tunnel to ${remote}"
+ssh -fN -L${port}:${host}:${port} ${remote}
+echo "SSH tunnel opened with pid $! and code $?"
+
+echo "Adding ${host} to /etc/hosts"
+sudo bash -c "echo 127.0.0.1 ${host} >> /etc/hosts"
