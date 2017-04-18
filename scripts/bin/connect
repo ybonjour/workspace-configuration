@@ -42,7 +42,6 @@ remote="${remote_user}@${remote_host}"
 
 echo "SSH tunnel to ${remote}"
 ssh -fN -L${port}:${host}:${port} ${remote}
-echo "SSH tunnel opened with pid $! and code $?"
 
 echo "Adding ${host} to /etc/hosts"
 sudo bash -c "echo 127.0.0.1 ${host} >> /etc/hosts"
