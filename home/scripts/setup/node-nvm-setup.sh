@@ -10,7 +10,7 @@ nvm=$(which nvm || true)
 
 if [ -d "${nvm_config_dir}" ]; then
 	echo "It seems nvm has already been configured."
-	echo "Not gonna do anything"
+	echo "Not gonna do anything."
 	exit 0
 fi
 
