@@ -64,7 +64,7 @@ Setup / What is needed?
 
 * Web:
 ** Chrome: `brew cask install google-chrome`
-** onepassword plugin
+*** plugins?
 
 
 * Software:
