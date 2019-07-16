@@ -2,7 +2,7 @@ source ~/.aliases
 source ~/.npm-completion
 source ~/.android-profile
 
-DEFAULT_JAVA_VERSION=1.7
+DEFAULT_JAVA_VERSION=1.8
 DEV_ROOT=~/dev
 HOME_BIN=~/scripts/bin
 
