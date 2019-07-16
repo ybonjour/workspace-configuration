@@ -19,3 +19,6 @@ export JAVA_HOME="$(/usr/libexec/java_home -v ${DEFAULT_JAVA_VERSION})"
 export GOPATH="${DEV_ROOT}/go"
 export PATH=$HOME_BIN:$PATH
 export CONNECT_CONFIG="~/.connect"
+
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
