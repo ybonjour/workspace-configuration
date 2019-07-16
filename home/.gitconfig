@@ -1,0 +1,18 @@
+
+[user]
+    name = Yves Bonjour
+    email = yves.bonjour@gmail.com
+
+[core]
+	editor = vim
+	excludesfile = ~/.gitignore_global
+
+[alias]
+	s = status
+	c = commit
+	a = add
+	d = diff
+	p = pull
+
+[pull]
+	rebase = true
