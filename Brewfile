@@ -22,6 +22,7 @@ tap 'adoptopenjdk/openjdk'
 cask 'adoptopenjdk8'
 cask 'adoptopenjdk11'
 brew 'nvm'
+cask 'sublime-text'
 
 # usability
 cask 'bettertouchtool'
