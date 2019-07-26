@@ -21,7 +21,7 @@ cask 'postman'
 tap 'adoptopenjdk/openjdk'
 cask 'adoptopenjdk8'
 cask 'adoptopenjdk11'
-brew nvm
+brew 'nvm'
 
 # usability
 cask 'bettertouchtool'
@@ -33,5 +33,6 @@ cask 'slack'
 cask 'skype'
 cask 'kindle'
 cask 'spotify'
+tap 'homebrew/cask-drivers'
 cask 'sonos'
 cask 'vlc'
