@@ -1,5 +1,5 @@
 {
-  "BTTPresetName" : "better-touch-tool-configuration",
+  "BTTPresetName" : "Default",
   "BTTGeneralSettings" : {
     "disableScrollingIf3" : true,
     "BTTForceNormalClickPressure5F" : 200,
@@ -130,15 +130,20 @@
     "BTTTouchBarVisible" : false,
     "BTTTouchBarUseMonoSpacedFont" : true
   },
-  "BTTPresetUUID" : "A1AEAFD7-EB73-43FE-9EF9-6A42866C6CE6",
+  "BTTPresetUUID" : "0ACAB1C7-ACBD-4DE1-B5E5-6A159A0D797F",
   "BTTPresetContent" : [
+    {
+      "BTTAppBundleIdentifier" : "BT.G",
+      "BTTAppName" : "Global",
+      "BTTAppAutoInvertIcon" : 1,
+      "BTTTriggers" : [
+
+      ]
+    },
     {
       "BTTAppBundleIdentifier" : "com.apple.Terminal",
       "BTTAppName" : "Terminal",
       "BTTAppAutoInvertIcon" : 1,
-      "BTTAppSpecificSettings" : {
-
-      },
       "BTTTriggers" : [
         {
           "BTTTriggerType" : -1,
@@ -149,7 +154,7 @@
           "BTTShortcutToSend" : "59,14",
           "BTTEnabled2" : 1,
           "BTTKeyboardShortcutKeyboardType" : 0,
-          "BTTUUID" : "9B06D0DE-6ED8-4A76-8FE7-2BA02DF5E83A",
+          "BTTUUID" : "775598B0-F1C5-4398-B955-2D8CAFCA0780",
           "BTTNotesInsteadOfDescription" : 0,
           "BTTEnabled" : 1,
           "BTTModifierMode" : 0,
@@ -158,7 +163,14 @@
           "BTTOrder" : 1,
           "BTTDisplayOrder" : 0,
           "BTTAutoAdaptToKeyboardLayout" : 0
-        },
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.googlecode.iterm2",
+      "BTTAppName" : "iTerm",
+      "BTTAppAutoInvertIcon" : 1,
+      "BTTTriggers" : [
         {
           "BTTTriggerType" : -1,
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
@@ -168,218 +180,13 @@
           "BTTShortcutToSend" : "59,0",
           "BTTEnabled2" : 1,
           "BTTKeyboardShortcutKeyboardType" : 0,
-          "BTTUUID" : "A21AAD1D-A532-4B5B-9006-78D9A6F2601E",
+          "BTTUUID" : "A3358C45-7D9B-412B-BB8E-6ADB00E5FA51",
           "BTTNotesInsteadOfDescription" : 0,
           "BTTEnabled" : 1,
           "BTTModifierMode" : 0,
           "BTTShortcutKeyCode" : 115,
-          "BTTShortcutModifierKeys" : 8388608,
-          "BTTOrder" : 0,
-          "BTTDisplayOrder" : 0,
-          "BTTAutoAdaptToKeyboardLayout" : 0
-        }
-      ]
-    },
-    {
-      "BTTAppBundleIdentifier" : "BT.G",
-      "BTTAppName" : "Global",
-      "BTTAppAutoInvertIcon" : 1,
-      "BTTAppSpecificSettings" : {
-
-      },
-      "BTTTriggers" : [
-        {
-          "BTTTriggerType" : -1,
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 48,
-          "BTTPredefinedActionName" : "Maximize Window to Next Monitor",
-          "BTTEnabled2" : 1,
-          "BTTKeyboardShortcutKeyboardType" : 0,
-          "BTTUUID" : "FA3342E4-A197-45E1-B627-E6A051405AB1",
-          "BTTNotesInsteadOfDescription" : 0,
-          "BTTEnabled" : 1,
-          "BTTModifierMode" : 0,
-          "BTTShortcutKeyCode" : 36,
-          "BTTShortcutModifierKeys" : 1572864,
-          "BTTOrder" : 8,
-          "BTTDisplayOrder" : 0,
-          "BTTAutoAdaptToKeyboardLayout" : 0
-        },
-        {
-          "BTTTriggerType" : -1,
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : -1,
-          "BTTPredefinedActionName" : "No Action",
-          "BTTAutoAdaptActionToKeyboardLayout" : true,
-          "BTTShortcutToSend" : "55,123",
-          "BTTEnabled2" : 1,
-          "BTTKeyboardShortcutKeyboardType" : 0,
-          "BTTUUID" : "5B54CDA4-4E05-4EB9-9473-F1F8CF67D3DC",
-          "BTTNotesInsteadOfDescription" : 0,
-          "BTTEnabled" : 1,
-          "BTTModifierMode" : 0,
-          "BTTShortcutKeyCode" : 115,
-          "BTTShortcutModifierKeys" : 8388608,
-          "BTTOrder" : 0,
-          "BTTDisplayOrder" : 0,
-          "BTTAutoAdaptToKeyboardLayout" : 0
-        },
-        {
-          "BTTTriggerType" : -1,
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 95,
-          "BTTPredefinedActionName" : "Maximize Window to Bottom Half",
-          "BTTEnabled2" : 1,
-          "BTTKeyboardShortcutKeyboardType" : 0,
-          "BTTUUID" : "5A344AFE-EA24-4FF8-BA50-A37A5C098868",
-          "BTTNotesInsteadOfDescription" : 0,
-          "BTTEnabled" : 1,
-          "BTTModifierMode" : 0,
-          "BTTShortcutKeyCode" : 125,
-          "BTTShortcutModifierKeys" : 9961472,
-          "BTTOrder" : 7,
-          "BTTDisplayOrder" : 0,
-          "BTTAutoAdaptToKeyboardLayout" : 0
-        },
-        {
-          "BTTTriggerType" : -1,
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : -1,
-          "BTTPredefinedActionName" : "No Action",
-          "BTTAutoAdaptActionToKeyboardLayout" : true,
-          "BTTShortcutToSend" : "56,55,124",
-          "BTTEnabled2" : 1,
-          "BTTKeyboardShortcutKeyboardType" : 0,
-          "BTTUUID" : "0CA8DC2F-5026-48BB-AD0E-78270C2C896B",
-          "BTTNotesInsteadOfDescription" : 0,
-          "BTTEnabled" : 1,
-          "BTTModifierMode" : 0,
-          "BTTShortcutKeyCode" : 119,
-          "BTTShortcutModifierKeys" : 8519680,
-          "BTTOrder" : 3,
-          "BTTDisplayOrder" : 0,
-          "BTTAutoAdaptToKeyboardLayout" : 0
-        },
-        {
-          "BTTTriggerType" : -1,
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : -1,
-          "BTTPredefinedActionName" : "No Action",
-          "BTTAutoAdaptActionToKeyboardLayout" : true,
-          "BTTShortcutToSend" : "56,55,123",
-          "BTTEnabled2" : 1,
-          "BTTKeyboardShortcutKeyboardType" : 0,
-          "BTTUUID" : "A8800FF6-1B26-42A2-993B-D4BD8D71D009",
-          "BTTNotesInsteadOfDescription" : 0,
-          "BTTEnabled" : 1,
-          "BTTModifierMode" : 0,
-          "BTTShortcutKeyCode" : 115,
-          "BTTShortcutModifierKeys" : 8519680,
-          "BTTOrder" : 2,
-          "BTTDisplayOrder" : 0,
-          "BTTAutoAdaptToKeyboardLayout" : 0
-        },
-        {
-          "BTTTriggerType" : 1004,
-          "BTTTriggerTypeDescription" : "Button 4",
-          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
-          "BTTPredefinedActionType" : -1,
-          "BTTPredefinedActionName" : "No Action",
-          "BTTAutoAdaptActionToKeyboardLayout" : true,
-          "BTTShortcutToSend" : "55,124",
-          "BTTEnabled2" : 1,
-          "BTTAlternateModifierKeys" : 0,
-          "BTTUUID" : "EC7B0944-C10C-4673-8736-7D93A4F055E6",
-          "BTTNotesInsteadOfDescription" : 0,
-          "BTTEnabled" : 1,
-          "BTTModifierMode" : 0,
-          "BTTOrder" : 1,
-          "BTTDisplayOrder" : 0
-        },
-        {
-          "BTTTriggerType" : -1,
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : -1,
-          "BTTPredefinedActionName" : "No Action",
-          "BTTAutoAdaptActionToKeyboardLayout" : true,
-          "BTTShortcutToSend" : "55,124",
-          "BTTEnabled2" : 1,
-          "BTTKeyboardShortcutKeyboardType" : 0,
-          "BTTUUID" : "6A8B5415-1239-4347-B4BD-53FC1694CB8D",
-          "BTTNotesInsteadOfDescription" : 0,
-          "BTTEnabled" : 1,
-          "BTTModifierMode" : 0,
-          "BTTShortcutKeyCode" : 119,
           "BTTShortcutModifierKeys" : 8388608,
           "BTTOrder" : 1,
-          "BTTDisplayOrder" : 0,
-          "BTTAutoAdaptToKeyboardLayout" : 0
-        },
-        {
-          "BTTTriggerType" : 1003,
-          "BTTTriggerTypeDescription" : "Button 3",
-          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
-          "BTTPredefinedActionType" : -1,
-          "BTTPredefinedActionName" : "No Action",
-          "BTTAutoAdaptActionToKeyboardLayout" : true,
-          "BTTShortcutToSend" : "55,123",
-          "BTTEnabled2" : 1,
-          "BTTAlternateModifierKeys" : 0,
-          "BTTUUID" : "14514AA4-748D-4790-B2BD-C956B6D763F4",
-          "BTTNotesInsteadOfDescription" : 0,
-          "BTTEnabled" : 1,
-          "BTTModifierMode" : 0,
-          "BTTOrder" : 0,
-          "BTTDisplayOrder" : 0
-        },
-        {
-          "BTTTriggerType" : -1,
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 20,
-          "BTTPredefinedActionName" : "Maximize Window Right",
-          "BTTEnabled2" : 1,
-          "BTTKeyboardShortcutKeyboardType" : 0,
-          "BTTUUID" : "782AC675-5198-4B0D-9DF4-56D59483D0B7",
-          "BTTNotesInsteadOfDescription" : 0,
-          "BTTEnabled" : 1,
-          "BTTModifierMode" : 0,
-          "BTTShortcutKeyCode" : 124,
-          "BTTShortcutModifierKeys" : 9961472,
-          "BTTOrder" : 4,
-          "BTTDisplayOrder" : 0,
-          "BTTAutoAdaptToKeyboardLayout" : 0
-        },
-        {
-          "BTTTriggerType" : -1,
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 96,
-          "BTTPredefinedActionName" : "Maximize Window to Top Half",
-          "BTTEnabled2" : 1,
-          "BTTKeyboardShortcutKeyboardType" : 0,
-          "BTTUUID" : "FA71A5BC-C72E-47FF-B9D0-77A64FEF014E",
-          "BTTNotesInsteadOfDescription" : 0,
-          "BTTEnabled" : 1,
-          "BTTModifierMode" : 0,
-          "BTTShortcutKeyCode" : 126,
-          "BTTShortcutModifierKeys" : 9961472,
-          "BTTOrder" : 6,
-          "BTTDisplayOrder" : 0,
-          "BTTAutoAdaptToKeyboardLayout" : 0
-        },
-        {
-          "BTTTriggerType" : -1,
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 19,
-          "BTTPredefinedActionName" : "Maximize Window Left",
-          "BTTEnabled2" : 1,
-          "BTTKeyboardShortcutKeyboardType" : 0,
-          "BTTUUID" : "1136F8A0-8398-4A0C-8F62-D93E00CFB4F8",
-          "BTTNotesInsteadOfDescription" : 0,
-          "BTTEnabled" : 1,
-          "BTTModifierMode" : 0,
-          "BTTShortcutKeyCode" : 123,
-          "BTTShortcutModifierKeys" : 9961472,
-          "BTTOrder" : 5,
           "BTTDisplayOrder" : 0,
           "BTTAutoAdaptToKeyboardLayout" : 0
         }
@@ -389,9 +196,6 @@
       "BTTAppBundleIdentifier" : "com.apple.finder",
       "BTTAppName" : "Finder",
       "BTTAppAutoInvertIcon" : 1,
-      "BTTAppSpecificSettings" : {
-
-      },
       "BTTTriggers" : [
 
       ]
