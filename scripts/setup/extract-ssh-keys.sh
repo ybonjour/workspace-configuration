@@ -30,9 +30,9 @@ extract_key() {
 	local name="$2"
 	local private_key="${ssh_dir}/${name}"
 	local public_key="${ssh_dir}/${name}.pub"
-	op get item "ssh-keys - ${name}" > "${private_key}"
+	op get document "ssh-keys - ${name}" > "${private_key}"
 	chmod 600 "${private_key}"
-	op get item "ssh-keys - id_rsa.pub" > "${public_key}"
+	op get document "ssh-keys - id_rsa.pub" > "${public_key}"
 	chmod 644 "${public_key}"
 
 }
