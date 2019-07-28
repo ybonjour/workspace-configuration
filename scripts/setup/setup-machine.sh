@@ -5,8 +5,20 @@ set -o pipefail
 set -o nounset
 
 dir=$(cd -P -- "$(dirname -- "$0")" && pwd -P)
+root="${dir}/../.."
 
-./install-brews.sh
-./install-mas.sh
-./node-nvm-setup.sh
-./run-osx-softwareupdates.sh
+(xcode-select --install || true) # avoid error if already installed
+(cp "${root}"/.* ~  || true) # Ignore errors from directories
+cp -r "${root}/scripts" ~/scripts
+cp "${root}"/Brewfile ~/Brewfile
+source ~/.bash_profile
+
+"${dir}"/install-brews.sh
+"${dir}"/initialize-1password.sh
+"${dir}"/install-mas.sh
+"${dir}"/node-nvm-setup.sh
+"${dir}"/extract-btt-license.sh
+"${dir}"/extract-ssh-keys.sh
+"${dir}"/customize-dock.sh
+"${dir}"/initialize-gitrepos.sh
+"${dir}"/run-osx-softwareupdates.sh
