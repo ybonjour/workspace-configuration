@@ -16,6 +16,7 @@ main() {
 
 	# XCode
 	mas install 497799835
+	sudo xcodebuild -license
 
 	# Markoff
 	mas install 1084713122
