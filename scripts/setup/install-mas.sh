@@ -2,21 +2,42 @@
 
 set -o errexit
 set -o pipefail
+set -o nounset
 
 dir=$(cd -P -- "$(dirname -- "$0")" && pwd -P)
 
-nvm=$(which mas || true)
+main() {
+	check_tool "mas"
+	check_tool "op"
+	check_tool "jq"
 
-if [ -z "${mas}" ]; then
-	echo "mas is not installed yet."
-	echo "You probabbly want to run install-brews.sh before any configuration script."
-	exit 1
-fi
+ 	# Signin is currently disabled by mas. See https://github.com/mas-cli/mas/issues/164
+	# signin()
 
-set -o nounset
+	# XCode
+	mas install 497799835
 
-# XCode
-mas install 497799835
+	# Markoff
+	mas install 1084713122
+}
 
-# Markoff
-mas install 1084713122
+sigin() {
+	eval $(op signin my)
+
+	username=$(op get item yves-apple.com | jq -r '.details.fields[] | select(.name == "username") | .value')
+	password=$(op get item yves-apple.com | jq -r '.details.fields[] | select(.name == "password") | .value')
+
+	mas signin "${username}" "${password}"
+}
+
+check_tool() {
+	local name="${1:-}"
+	local binary=$(which "${name}" || true)
+	if [ -z "${binary:-}" ]; then
+		(>&2 echo "${name} not found")
+		(>&2 echo "You might want to run ./install=brews.sh before any configuration script.")
+		exit 127
+	fi
+}
+
+main
