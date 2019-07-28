@@ -8,10 +8,7 @@ dir=$(cd -P -- "$(dirname -- "$0")" && pwd -P)
 root="${dir}/../.."
 
 (xcode-select --install || true) # avoid error if already installed
-(cp "${root}"/.* ~  || true) # Ignore errors from directories
-cp -r "${root}/scripts" ~/scripts
-cp "${root}"/Brewfile ~/Brewfile
-source ~/.bash_profile
+source ${root}/.bash_profile
 
 "${dir}"/install-brews.sh
 "${dir}"/initialize-1password.sh
