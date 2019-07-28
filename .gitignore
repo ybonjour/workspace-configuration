@@ -4,6 +4,8 @@
 .bash_sessions/
 .conda/
 .config/
+.ipython/
+.jupyter/
 .nvm/
 .op/
 .ssh/
