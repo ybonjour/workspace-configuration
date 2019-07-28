@@ -2,27 +2,41 @@
 
 set -o errexit
 set -o pipefail
+set -o nounset
 
 dir=$(cd -P -- "$(dirname -- "$0")" && pwd -P)
 
-nvm_config_dir=${1:~/.nvm}
-nvm=$(which nvm || true)
+config_dir_nvm=${1:-"${HOME}/.nvm"}
 
-if [ -d "${nvm_config_dir}" ]; then
+if [ -d "${config_dir_nvm}" ]; then
 	echo "It seems nvm has already been configured."
 	echo "Not gonna do anything."
 	exit 0
 fi
 
-if [ -z "${nvm}" ]; then
+brew=$(which brew || true)
+if [ -z "${brew}" ]; then
+	echo "brew is not installed yet."
+	echo "You probabbly want to run install-brews.sh before any configuration script."
+	exit 1
+fi
+
+source $(brew --prefix nvm)/nvm.sh
+
+# nvm is a bash function not an executable
+exit_code=-1
+{
+	type nvm > /dev/null
+	exit_code=$?
+} || truet
+
+if [ "${exit_code}" != "0" ]; then
 	echo "nvm is not installed yet."
 	echo "You probabbly want to run install-brews.sh before any configuration script."
 	exit 1
 fi
 
-set -o nounset
+mkdir "${config_dir_nvm}"
+result=$(nvm install "lts/dubnium")
+result=$(nvm use default)
 
-mkdir ~/.nvm
-source ~/.bash_profile # ensure we got newest .bash_profile for nvm configuration
-nvm install --lts='Dubnium'
-nvm use default
