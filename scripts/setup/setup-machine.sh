@@ -13,6 +13,7 @@ source ${root}/.bash_profile
 "${dir}"/install-brews.sh
 "${dir}"/initialize-1password.sh
 "${dir}"/install-mas.sh
+"${dir}"/install-condas.sh
 "${dir}"/node-nvm-setup.sh
 "${dir}"/extract-btt-license.sh
 "${dir}"/extract-ssh-keys.sh

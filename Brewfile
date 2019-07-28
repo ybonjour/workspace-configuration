@@ -23,6 +23,7 @@ cask 'adoptopenjdk8'
 cask 'adoptopenjdk11'
 brew 'nvm'
 cask 'sublime-text'
+cask 'anaconda'
 
 # usability
 cask 'bettertouchtool'

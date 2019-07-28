@@ -2,6 +2,7 @@
 .android/
 .bash_history
 .bash_sessions/
+.conda/
 .config/
 .nvm/
 .op/

@@ -14,5 +14,5 @@ if [ -z "${brew}" ]; then
 fi
 brew update || true
 
-brew bundle cleanup --file="${HOME}/Brewfile"
+brew bundle cleanup --file="${HOME}/Brewfile" --force
 brew bundle --file="${HOME}/Brewfile"
