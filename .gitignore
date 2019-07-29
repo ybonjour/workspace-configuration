@@ -6,6 +6,7 @@
 .config/
 .ipython/
 .jupyter/
+.matplotlib/
 .nvm/
 .op/
 .ssh/
