@@ -4,6 +4,7 @@
 .bash_sessions/
 .conda/
 .config/
+.docker/
 .ipython/
 .jupyter/
 .lesshst
