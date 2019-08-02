@@ -24,6 +24,7 @@ cask 'adoptopenjdk11'
 brew 'nvm'
 cask 'sublime-text'
 cask 'anaconda'
+cask 'visual-studio-code'
 
 # usability
 cask 'bettertouchtool'
