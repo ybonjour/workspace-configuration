@@ -19,6 +19,7 @@ export JAVA_HOME="$(/usr/libexec/java_home -v ${DEFAULT_JAVA_VERSION})"
 export GOPATH="${DEV_ROOT}/go"
 export PATH=$HOME_BIN:/usr/local/anaconda3/bin:$PATH
 export CONNECT_CONFIG="~/.connect"
-
-export NVM_DIR=~/.nvm
+export ZSH="${HOME}/.oh-my-zsh"
+export NVM_DIR="${HOME}/.nvm"
 source $(brew --prefix nvm)/nvm.sh
+
