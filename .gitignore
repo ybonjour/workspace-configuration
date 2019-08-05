@@ -5,6 +5,7 @@
 .conda/
 .config/
 .docker/
+.gnupg/
 .ipython/
 .jupyter/
 .lesshst
@@ -13,6 +14,7 @@
 .nvm/
 .oh-my-zsh/
 .op/
+.password-store/
 .ssh/
 .viminfo
 .zsh_history

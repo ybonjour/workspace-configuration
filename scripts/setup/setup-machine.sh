@@ -12,11 +12,13 @@ source ${root}/.bash_profile
 
 "${dir}"/install-brews.sh
 "${dir}"/initialize-1password.sh
+"${dir}"/extract-ssh-keys.sh
+"${dir}"/extract-gpg-keys.sh
+"${dir}"/initialize-pass.sh
 "${dir}"/install-mas.sh
 "${dir}"/install-condas.sh
 "${dir}"/node-nvm-setup.sh
 "${dir}"/extract-btt-license.sh
-"${dir}"/extract-ssh-keys.sh
 "${dir}"/customize-dock.sh
 "${dir}"/initialize-gitrepos.sh
 "${dir}"/switch-homedir-to-ssh-repo.sh
