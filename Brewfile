@@ -10,6 +10,7 @@ brew 'tree'
 cask 'iterm2'
 cask '1password'
 cask '1password-cli'
+brew 'pass'
 
 # development
 brew 'kubectl'
