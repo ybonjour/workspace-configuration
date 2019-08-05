@@ -11,9 +11,12 @@
 .matplotlib/
 .npm/
 .nvm/
+.oh-my-zsh/
 .op/
 .ssh/
 .viminfo
+.zsh_history
+.zcompdump*
 Applications/
 Desktop/
 Documents/

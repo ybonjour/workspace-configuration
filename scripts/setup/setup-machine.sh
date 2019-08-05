@@ -21,3 +21,4 @@ source ${root}/.bash_profile
 "${dir}"/initialize-gitrepos.sh
 "${dir}"/switch-homedir-to-ssh-repo.sh
 "${dir}"/run-osx-softwareupdates.sh
+"${dir}"/install-oh-my-zsh.sh
