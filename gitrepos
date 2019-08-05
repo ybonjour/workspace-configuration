@@ -1,3 +1,11 @@
 test-store	git@github.com:ybonjour/test-store.git
 ffhs/esa/projects	git@github.com:ybonjour/ffhs-esa-admin.git
 votes-analyzer	git@github.com:ybonjour/votes-analyzer.git
+rethinc/vld/courier-app-android	git@bitbucket.org:re-thinc/vld-courier-app-android.git
+rethinc/vld/vld-customer-app-android	git@bitbucket.org:re-thinc/vld-customer-app-android.git
+rethinc/vld/android git@bitbucket.org:re-thinc/vld-android.git
+rethinc/vld/webservice	git@bitbucket.org:re-thinc/vld-webservice.git
+rethinc/vld/cockpit	git@bitbucket.org:re-thinc/vld-cockpit.git
+rethinc/website	git@bitbucket.org:re-thinc/website.git
+rethinc/kotlin	 git@bitbucket.org:re-thinc/rethinc-kotlin.git
+rethinc/android	git@bitbucket.org:re-thinc/rethinc-android.git
