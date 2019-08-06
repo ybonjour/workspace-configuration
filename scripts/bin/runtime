@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+
+set -o errexit
+set -o pipefail
+set -o nounset
+
+dir=$(cd -P -- "$(dirname -- "$0")" && pwd -P)
+
+main() {
+	local runtime="${1:-}"
+	local command="${2:-}"
+
+	if [ -z "${runtime}" ]; then
+		usage "${0}"
+	fi
+
+	if [ -z "${command}" ]; then
+		usage "${0}"
+	fi
+
+	local workspace=$(pwd)
+
+	local full_command="cd /workspace; ${command}"
+
+	docker run --rm --net host -v "${workspace}":/workspace "rethinc/${runtime}:latest" sh -c "${full_command}"
+}
+
+usage() {
+	local script="$1"
+	echo "USAGE: ${script} <runtime> <command>"
+	exit 1
+}
+
+main "$@"
+
