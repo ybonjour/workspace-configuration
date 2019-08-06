@@ -16,6 +16,7 @@
 .op/
 .password-store/
 .ssh/
+.terraform.d/
 .viminfo
 .zsh_history
 .zcompdump*

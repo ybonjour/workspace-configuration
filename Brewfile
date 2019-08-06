@@ -19,6 +19,7 @@ cask '1password-cli'
 brew 'pass'
 
 # development
+brew 'terraform'
 brew 'kubectl'
 cask 'docker'
 cask 'minikube'
