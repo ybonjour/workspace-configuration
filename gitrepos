@@ -12,3 +12,4 @@ rethinc/android	git@bitbucket.org:re-thinc/rethinc-android.git
 rethinc/runtimes	git@bitbucket.org:re-thinc/runtimes.git
 rethinc/signing	git@bitbucket.org:re-thinc/rethinc-signing.git
 rethinc/rancher-server git@bitbucket.org:re-thinc/rancher-server.git
+rethinc/dev-tools-deployment git@bitbucket.org:re-thinc/dev-tools-deployment.git
