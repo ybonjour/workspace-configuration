@@ -19,6 +19,7 @@
 .ssh/
 .terraform.d/
 .viminfo
+.wget-hsts
 .zsh_history
 .zcompdump*
 Applications/
