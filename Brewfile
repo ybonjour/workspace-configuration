@@ -4,6 +4,7 @@ brew 'bat'
 brew 'watch'
 brew 'wget'
 brew 'jq'
+brew 'tldr'
 brew 'openssl'
 brew 'unrar'
 brew 'tree'
@@ -17,6 +18,7 @@ cask 'font-meslo-nerd-font'
 cask '1password'
 cask '1password-cli'
 brew 'pass'
+cask 'dropbox'
 
 # development
 brew 'terraform'
@@ -38,6 +40,9 @@ cask 'visual-studio-code'
 # usability
 cask 'bettertouchtool'
 cask 'scroll-reverser'
+
+# finances
+cask 'gnucash'
 
 # media
 cask 'google-chrome'
