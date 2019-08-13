@@ -5,6 +5,7 @@
 .conda/
 .config/
 .docker/
+.dropbox/
 .gnupg/
 .gsutil/
 .ipython/
@@ -29,6 +30,7 @@ Applications/
 Desktop/
 Documents/
 Downloads/
+Dropbox/
 Library/
 Movies/
 Music/
