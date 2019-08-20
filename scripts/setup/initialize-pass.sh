@@ -11,9 +11,10 @@ main() {
 	check_tool "pass"
 	local gpg_id="31E5951D7A0E2D155C501F16C3DCB108A821E5BB"
 	pass init "${gpg_id}"
+	pass git init
 	pass git remote add origin git@bitbucket.org:re-thinc/pass.git
 	pass git branch --set-upstream-to=origin/master
-	pass git pull --rebase origin/master
+	pass git pull --rebase origin master
 }
 
 check_tool() {
