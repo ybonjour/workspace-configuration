@@ -6,6 +6,7 @@ rethinc/vld/vld-customer-app-android	git@bitbucket.org:re-thinc/vld-customer-app
 rethinc/vld/android git@bitbucket.org:re-thinc/vld-android.git
 rethinc/vld/webservice	git@bitbucket.org:re-thinc/vld-webservice.git
 rethinc/vld/cockpit	git@bitbucket.org:re-thinc/vld-cockpit.git
+rethinc/vld/deployment-dev git@bitbucket.org:re-thinc/vld-deployment-dev.git
 rethinc/website	git@bitbucket.org:re-thinc/website.git
 rethinc/kotlin	 git@bitbucket.org:re-thinc/rethinc-kotlin.git
 rethinc/android	git@bitbucket.org:re-thinc/rethinc-android.git
@@ -13,3 +14,5 @@ rethinc/runtimes	git@bitbucket.org:re-thinc/runtimes.git
 rethinc/signing	git@bitbucket.org:re-thinc/rethinc-signing.git
 rethinc/rancher-server git@bitbucket.org:re-thinc/rancher-server.git
 rethinc/dev-tools-deployment git@bitbucket.org:re-thinc/dev-tools-deployment.git
+rethinc/gcp-toolbelt git@bitbucket.org:re-thinc/gcp-toolbelt.git
+rethinc/rancher-environment	git@bitbucket.org:re-thinc/rancher-environment.git
