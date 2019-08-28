@@ -1,7 +1,7 @@
 
 [user]
     name = Yves Bonjour
-    email = yves.bonjour@gmail.com
+    email = yves.bonjour@rethinc.ch
 
 [core]
 	editor = vim
