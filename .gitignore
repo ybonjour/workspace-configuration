@@ -7,6 +7,7 @@
 .docker/
 .dropbox/
 .gnupg/
+.gradle/
 .gsutil/
 .ipython/
 .jupyter/
