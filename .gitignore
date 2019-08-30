@@ -2,6 +2,7 @@
 .android/
 .bash_history
 .bash_sessions/
+.bitrise/
 .conda/
 .config/
 .docker/
@@ -21,6 +22,7 @@
 .op/
 .password-store/
 .ssh/
+.stepman/
 .terraform.d/
 .tldrc/
 .viminfo
