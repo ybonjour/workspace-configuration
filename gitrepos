@@ -7,6 +7,7 @@ rethinc/vld/android git@bitbucket.org:re-thinc/vld-android.git
 rethinc/vld/webservice	git@bitbucket.org:re-thinc/vld-webservice.git
 rethinc/vld/cockpit	git@bitbucket.org:re-thinc/vld-cockpit.git
 rethinc/vld/deployment-dev git@bitbucket.org:re-thinc/vld-deployment-dev.git
+rethinc/vld/deployment-prod git@bitbucket.org:re-thinc/vld-deployment-prod.git
 rethinc/website	git@bitbucket.org:re-thinc/website.git
 rethinc/kotlin	 git@bitbucket.org:re-thinc/rethinc-kotlin.git
 rethinc/android	git@bitbucket.org:re-thinc/rethinc-android.git
