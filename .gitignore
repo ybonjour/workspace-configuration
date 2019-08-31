@@ -25,6 +25,7 @@
 .stepman/
 .terraform.d/
 .tldrc/
+.vim/
 .viminfo
 .wget-hsts
 .zsh_history
