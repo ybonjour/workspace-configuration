@@ -1,4 +1,7 @@
 test-store	git@github.com:ybonjour/test-store.git
+personal-homepage git@github.com:ybonjour/personal-homepage.git 
+eisbrecher/website git@github.com:ybonjour/eisbrecher.git
+eisbrecher/rezepte git@github.com:ybonjour/eisbrecher-rezepte.git
 ffhs/esa/projects	git@github.com:ybonjour/ffhs-esa-admin.git
 votes-analyzer	git@github.com:ybonjour/votes-analyzer.git
 rethinc/vld/courier-app-android	git@bitbucket.org:re-thinc/vld-courier-app-android.git
