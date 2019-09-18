@@ -15,6 +15,7 @@
 .kube/
 .lesshst
 .local/
+.m2/
 .matplotlib/
 .npm/
 .nvm/
@@ -28,6 +29,7 @@
 .vim/
 .viminfo
 .wget-hsts
+.yarnrc
 .zsh_history
 .zcompdump*
 Applications/
