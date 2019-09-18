@@ -37,6 +37,7 @@ brew 'yarn'
 cask 'sublime-text'
 cask 'anaconda'
 cask 'visual-studio-code'
+cask 'pgadmin4'
 
 # usability
 cask 'bettertouchtool'
