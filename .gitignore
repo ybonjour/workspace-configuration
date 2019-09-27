@@ -5,8 +5,10 @@
 .bitrise/
 .conda/
 .config/
+.cups/
 .docker/
 .dropbox/
+.emulator_console_auth_token
 .gnupg/
 .gradle/
 .gsutil/
@@ -22,9 +24,11 @@
 .oh-my-zsh/
 .op/
 .password-store/
+.pgAdmin*
 .ssh/
 .stepman/
 .terraform.d/
+.Trash/
 .tldrc/
 .vim/
 .viminfo
@@ -41,6 +45,7 @@ Dropbox/
 Library/
 Movies/
 Music/
+pgadmin.log
 Pictures/
 Public/
 dev/
