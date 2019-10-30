@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+set -o errexit
+set -o pipefail
+set -o nounset
+
+dir=$(cd -P -- "$(dirname -- "$0")" && pwd -P)
+
+
+docker run \
+	--name mssql \
+	-d --rm \
+	-e 'ACCEPT_EULA=Y' \
+	-e 'SA_PASSWORD=Password2019' \
+	-p 1433:1433 \
+	microsoft/mssql-server-linux
