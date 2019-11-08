@@ -42,6 +42,7 @@ cask 'visual-studio-code'
 cask 'visual-studio'
 tap 'homebrew/cask-versions'
 cask 'pgadmin3'
+brew 'pidcat'
 
 # usability
 cask 'bettertouchtool'
