@@ -34,7 +34,7 @@ clone_all_repos() {
 			echo "Not cloning ${repo} to ${repo_folder} since it already exists."
 			continue
 		fi
-		git clone "${repo}" "${repo_folder}" || true
+		git clone --recurse-submodules "${repo}" "${repo_folder}" || true
 	done
 }
 
