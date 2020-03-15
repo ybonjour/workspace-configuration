@@ -42,6 +42,7 @@
 .tldrc/
 .vim/
 .viminfo
+.vmware/
 .wget-hsts
 .yarnrc
 .zsh_history
