@@ -20,6 +20,8 @@ cask '1password-cli'
 brew 'pass'
 brew 'bitwarden-cli'
 cask 'dropbox'
+cask 'nextcloud'
+brew 'nmap'
 
 # development
 brew 'terraform'
