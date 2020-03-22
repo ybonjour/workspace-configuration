@@ -15,6 +15,7 @@ rethinc/vld/cockpit	git@bitbucket.org:re-thinc/vld-cockpit.git
 rethinc/vld/chart git@bitbucket.org:re-thinc/vld-chart.git
 rethinc/vld/deployment-dev git@bitbucket.org:re-thinc/vld-deployment-dev.git
 rethinc/vld/deployment-prod git@bitbucket.org:re-thinc/vld-deployment-prod.git
+rethinc/vld/viavelo-website git@bitbucket.org:re-thinc/viavelo-website.git
 rethinc/witschi/chrono-master-air-ios git@bitbucket.org:re-thinc/witschi-chrono-master-air-ios.git
 rethinc/website	git@bitbucket.org:re-thinc/website.git
 rethinc/kotlin	 git@bitbucket.org:re-thinc/rethinc-kotlin.git
