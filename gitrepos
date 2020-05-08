@@ -1,8 +1,11 @@
 test-store	git@github.com:ybonjour/test-store.git
-personal-homepage git@github.com:ybonjour/personal-homepage.git 
+personal-homepage git@github.com:ybonjour/personal-homepage.git
+gastro-checkin git@github.com:ybonjour/gastro-checkin.git
 eisbrecher/website git@github.com:ybonjour/eisbrecher.git
 eisbrecher/rezepte git@github.com:ybonjour/eisbrecher-rezepte.git
-ffhs/esa/projects	git@github.com:ybonjour/ffhs-esa-admin.git
+ffhs/esa/contentproviderexample https://git.ffhs.ch/yves.bonjour/contentproviderexample.git
+ffhs/esa/projects-2020	git@github.com:ybonjour/ffhs-esa-admin.git
+ffhs/esa/projects-2020-PiBS	git@github.com:ybonjour/ffhs-esa-admin.git
 votes-analyzer	git@github.com:ybonjour/votes-analyzer.git
 rethinc/vld/rethinc-android git@bitbucket.org:re-thinc/rethinc-android.git
 rethinc/vld/courier-app-android	git@bitbucket.org:re-thinc/vld-courier-app-android.git
@@ -16,6 +19,7 @@ rethinc/vld/chart git@bitbucket.org:re-thinc/vld-chart.git
 rethinc/vld/deployment-dev git@bitbucket.org:re-thinc/vld-deployment-dev.git
 rethinc/vld/deployment-prod git@bitbucket.org:re-thinc/vld-deployment-prod.git
 rethinc/vld/viavelo-website git@bitbucket.org:re-thinc/viavelo-website.git
+rethinc/vld/viavelo-version-installer git@bitbucket.org:re-thinc/viavelo-version-installer.git
 rethinc/witschi/chrono-master-air-ios git@bitbucket.org:re-thinc/witschi-chrono-master-air-ios.git
 rethinc/website	git@bitbucket.org:re-thinc/website.git
 rethinc/kotlin	 git@bitbucket.org:re-thinc/rethinc-kotlin.git
