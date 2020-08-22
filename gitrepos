@@ -1,6 +1,5 @@
 test-store	git@github.com:ybonjour/test-store.git
 personal-homepage git@github.com:ybonjour/personal-homepage.git
-gastro-checkin git@github.com:ybonjour/gastro-checkin.git
 eisbrecher/website git@github.com:ybonjour/eisbrecher.git
 eisbrecher/rezepte git@github.com:ybonjour/eisbrecher-rezepte.git
 ffhs/esa/contentproviderexample https://git.ffhs.ch/yves.bonjour/contentproviderexample.git
@@ -20,6 +19,7 @@ rethinc/vld/deployment-dev git@bitbucket.org:re-thinc/vld-deployment-dev.git
 rethinc/vld/deployment-prod git@bitbucket.org:re-thinc/vld-deployment-prod.git
 rethinc/vld/viavelo-website git@bitbucket.org:re-thinc/viavelo-website.git
 rethinc/vld/viavelo-version-installer git@bitbucket.org:re-thinc/viavelo-version-installer.git
+rethinc/vld/signing git@bitbucket.org:re-thinc/vld-viavelo-signing.git
 rethinc/witschi/chrono-master-air-ios git@bitbucket.org:re-thinc/witschi-chrono-master-air-ios.git
 rethinc/website	git@bitbucket.org:re-thinc/website.git
 rethinc/kotlin	 git@bitbucket.org:re-thinc/rethinc-kotlin.git
@@ -31,3 +31,7 @@ rethinc/dev-tools-deployment git@bitbucket.org:re-thinc/dev-tools-deployment.git
 rethinc/gcp-toolbelt git@bitbucket.org:re-thinc/gcp-toolbelt.git
 rethinc/rancher-environment	git@bitbucket.org:re-thinc/rancher-environment.git
 rethinc/lmvsg/app-android git@bitbucket.org:re-thinc/lmsvg-app-android.git
+rethinc/lmvsg/app-ios git@bitbucket.org:re-thinc/lmsvg-app-ios.git
+rethinc/revisit git@github.com:rethinc/revisit.git
+rethinc/gvb/ccm-cockpit git@bitbucket.org:re-thinc/ccm-cockpit.git
+rethinc/reword git@github.com:rethinc/reword.git
