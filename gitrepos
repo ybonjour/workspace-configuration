@@ -24,7 +24,7 @@ rethinc/signing	git@bitbucket.org:re-thinc/rethinc-signing.git
 rethinc/dev-tools-deployment git@bitbucket.org:re-thinc/dev-tools-deployment.git
 rethinc/gcp-toolbelt git@bitbucket.org:re-thinc/gcp-toolbelt.git
 rethinc/lmvsg/app-android git@bitbucket.org:re-thinc/lmsvg-app-android.git
-rethinc/lmvsg/app-ios git@bitbucket.org:re-thinc/lmsvg-app-ios.git
+rethinc/lmvsg/app-ios git@bitbucket.org:re-thinc/lmvsg-app-ios.git
 rethinc/revisit git@github.com:rethinc/revisit.git
 rethinc/gvb/ccm-cockpit git@bitbucket.org:re-thinc/ccm-cockpit.git
 rethinc/rephrase git@github.com:rethinc/rephrase.git
