@@ -46,6 +46,14 @@
 .wget-hsts
 .yarnrc
 .zsh_history
+cocoapods/
+.cocoapods/
+.react-native-cli/
+.electron/
+.gem/
+.lldb/
+.node_repl_history
+.npmrc
 .zcompdump*
 Applications/
 better-touch-tool-license
