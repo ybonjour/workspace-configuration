@@ -1,11 +1,12 @@
 
 [user]
-    name = Yves Bonjour
-    email = yves.bonjour@rethinc.ch
+	name = Yves Bonjour
+	email = yves.bonjour@rethinc.ch
 
 [core]
 	editor = vim
-	excludesfile = ~/.gitignore_global
+	excludesfile = /Users/yvbo/.gitignore_global
+	autocrlf = input
 
 [alias]
 	s = status
@@ -16,3 +17,9 @@
 
 [pull]
 	rebase = true
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true

@@ -21,7 +21,7 @@ main() {
 clone_all_repos() {
 	local repo_file="$1"
 	local dev_folder="$2"
-	ssh-add ~/.ssh/id_rsa
+	ssh-add ~/.ssh/github
 	pathAndRepos=$(cat "${repo_file}")
 	echo "${pathAndRepos}" | while read pathAndRepo
 	do

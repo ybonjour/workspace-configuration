@@ -45,6 +45,9 @@ cask 'visual-studio'
 tap 'homebrew/cask-versions'
 cask 'pgadmin3'
 brew 'pidcat'
+brew 'carthage'
+brew 'v8' # for ruby
+
 
 # usability
 cask 'bettertouchtool'
