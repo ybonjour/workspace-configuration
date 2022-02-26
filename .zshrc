@@ -11,7 +11,7 @@ source ~/.aliases
 source ~/.npm-completion
 source ~/.android-profile
 
-DEFAULT_JAVA_VERSION=1.8
+DEFAULT_JAVA_VERSION=11
 DEV_ROOT=~/dev
 HOME_BIN=~/scripts/bin
 export JAVA_HOME="$(/usr/libexec/java_home -v ${DEFAULT_JAVA_VERSION})"
