@@ -1,3 +1,4 @@
+los-geits git@github.com:ybonjour/los-geits.git
 personal-homepage git@github.com:ybonjour/personal-homepage.git
 eisbrecher/website git@github.com:ybonjour/eisbrecher.git
 eisbrecher/rezepte git@github.com:ybonjour/eisbrecher-rezepte.git
@@ -15,6 +16,7 @@ rethinc/vld/deployment-prod git@bitbucket.org:re-thinc/vld-deployment-prod.git
 rethinc/vld/viavelo-website git@bitbucket.org:re-thinc/viavelo-website.git
 rethinc/vld/viavelo-version-installer git@bitbucket.org:re-thinc/viavelo-version-installer.git
 rethinc/vld/signing git@bitbucket.org:re-thinc/vld-viavelo-signing.git
+rethinc/vld/public-api git@bitbucket.org:re-thinc/public-api.git
 rethinc/witschi/chrono-master-air-ios git@bitbucket.org:re-thinc/witschi-chrono-master-air-ios.git
 rethinc/website	git@bitbucket.org:re-thinc/website.git
 rethinc/kotlin	 git@bitbucket.org:re-thinc/rethinc-kotlin.git
@@ -23,11 +25,19 @@ rethinc/runtimes	git@bitbucket.org:re-thinc/runtimes.git
 rethinc/signing	git@bitbucket.org:re-thinc/rethinc-signing.git
 rethinc/dev-tools-deployment git@bitbucket.org:re-thinc/dev-tools-deployment.git
 rethinc/gcp-toolbelt git@bitbucket.org:re-thinc/gcp-toolbelt.git
-rethinc/lmvsg/app-android git@bitbucket.org:re-thinc/lmsvg-app-android.git
 rethinc/lmvsg/app-ios git@bitbucket.org:re-thinc/lmvsg-app-ios.git
 rethinc/revisit git@github.com:rethinc/revisit.git
 rethinc/gvb/ccm-cockpit git@bitbucket.org:re-thinc/ccm-cockpit.git
 rethinc/rephrase git@github.com:rethinc/rephrase.git
 tooltime/engineering git@github.com:tooltime2019/engineering.git 
-tooltime/backend git@github.com:tooltime2019/backend.git 
+tooltime/mobile git@github.com:tooltime2019/mobile.git 
+tooltime/backend git@github.com:tooltime2019/backend.git
+tooltime/backoffice git@github.com:tooltime2019/backoffice.git
+tooltime/web git@github.com:tooltime2019/web.git
+tooltime/infrastructure git@github.com:tooltime2019/infrastructure.git 
 tooltime/public-api git@github.com:tooltime2019/public-api.git
+tooltime/wisag-import git@github.com:tooltime2019/wisag-import.git
+tooltime/wisag-export git@github.com:tooltime2019/wisag-export.git
+tooltime/bauer git@github.com:tooltime2019/bauer.git
+tooltime/ids-bff git@github.com:tooltime2019/ids-bff.git
+ffhs/esa git@github.com:ybonjour/ffhs-esa-admin.git
