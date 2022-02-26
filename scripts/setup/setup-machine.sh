@@ -10,10 +10,7 @@ root="${dir}/../.."
 (xcode-select --install || true) # avoid error if already installed
 
 "${dir}"/install-brews.sh
-"${dir}"/initialize-1password.sh
 "${dir}"/extract-ssh-keys.sh
-"${dir}"/extract-gpg-keys.sh
-"${dir}"/initialize-pass.sh
 "${dir}"/install-mas.sh
 "${dir}"/install-condas.sh
 "${dir}"/node-nvm-setup.sh

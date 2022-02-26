@@ -8,11 +8,8 @@ dir=$(cd -P -- "$(dirname -- "$0")" && pwd -P)
 
 main() {
 	check_tool "mas"
-	check_tool "op"
-	check_tool "jq"
 
- 	# Signin is currently disabled by mas. See https://github.com/mas-cli/mas/issues/164
-	# signin()
+	 signin()
 
 	# XCode
 	mas install 497799835
@@ -23,10 +20,8 @@ main() {
 }
 
 sigin() {
-	eval $(op signin my)
-
-	username=$(op get item yves-apple.com | jq -r '.details.fields[] | select(.name == "username") | .value')
-	password=$(op get item yves-apple.com | jq -r '.details.fields[] | select(.name == "password") | .value')
+	username=$("${dir}/bitwarden-get-username.sh" yves-apple.com)
+	password=$("${dir}/bitwarden-get-password.sh" yves-apple.com)
 
 	mas signin "${username}" "${password}"
 }
