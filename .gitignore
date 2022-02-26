@@ -1,4 +1,7 @@
 .aspnet/
+.aws/
+.azure/
+.bundle/
 .dotnet/
 .eclipse/
 .librarymanager/
@@ -28,6 +31,7 @@
 .lesshst
 .local/
 .m2/
+.mitmproxy/
 .matplotlib/
 .npm/
 .nvm/
@@ -37,12 +41,15 @@
 .pgAdmin*
 .ssh/
 .stepman/
+.swiftpm/
 .terraform.d/
 .Trash/
 .tldrc/
 .vim/
 .viminfo
 .vmware/
+.vscode/
+.zsh_sessions/
 .wget-hsts
 .yarnrc
 .zsh_history
@@ -54,6 +61,7 @@ cocoapods/
 .lldb/
 .node_repl_history
 .npmrc
+.pdfbox.cache
 .zcompdump*
 Applications/
 better-touch-tool-license
