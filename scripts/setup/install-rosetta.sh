@@ -6,4 +6,8 @@ set -o nounset
 
 dir=$(cd -P -- "$(dirname -- "$0")" && pwd -P)
 
-conda install -y ipython jupyter
+main() {
+	sudo softwareupdate --install-rosetta
+}
+
+main "$@"
