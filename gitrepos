@@ -29,6 +29,7 @@ rethinc/lmvsg/app-ios git@bitbucket.org:re-thinc/lmvsg-app-ios.git
 rethinc/revisit git@github.com:rethinc/revisit.git
 rethinc/gvb/ccm-cockpit git@bitbucket.org:re-thinc/ccm-cockpit.git
 rethinc/rephrase git@github.com:rethinc/rephrase.git
+tooltime/aws-tooling git@github.com:tooltime2019/aws-tooling.git
 tooltime/engineering git@github.com:tooltime2019/engineering.git 
 tooltime/mobile git@github.com:tooltime2019/mobile.git 
 tooltime/backend git@github.com:tooltime2019/backend.git
