@@ -10,7 +10,7 @@ dir=$(cd -P -- "$(dirname -- "$0")" && pwd -P)
 brew=$(which brew || true)
 
 if [ -z "${brew}" ]; then
-	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
 no_update="${1:-}"
