@@ -23,7 +23,7 @@ main() {
 		session=$(bw unlock --raw)
 	fi
 
-	bw sync
+	bw sync --session=${session}
 
 	local ssh_key_folder=$(bw get folder ssh-keys --session=${session} | jq --raw-output .id)
 
@@ -40,7 +40,7 @@ main() {
 			echo "Ignore ${name} as it already exists in ${path}"
 		else
 			echo "Writing key ${path}"
-			bw get item "${id}" | jq --raw-output .notes > "${path}"
+			bw get item "${id}" --session=${session} | jq --raw-output .notes > "${path}"
 			if [[ "${path}" != *".pub" ]]; then
 				chmod 600 "${path}"
 			else

@@ -23,7 +23,7 @@ main() {
 		session=$(bw unlock --raw)
 	fi
 
-	bw sync > /dev/null
+	bw sync --session=${session} > /dev/null
 
 	bw get username "${name}"  --session=${session}
 }

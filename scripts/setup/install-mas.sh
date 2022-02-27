@@ -9,7 +9,8 @@ dir=$(cd -P -- "$(dirname -- "$0")" && pwd -P)
 main() {
 	check_tool "mas"
 
-	 signin()
+	#Sign in is not supported sign in manually to the app store
+	#signin
 
 	# XCode
 	mas install 497799835
@@ -19,7 +20,7 @@ main() {
 	mas install 1084713122
 }
 
-sigin() {
+signin() {
 	username=$("${dir}/bitwarden-get-username.sh" yves-apple.com)
 	password=$("${dir}/bitwarden-get-password.sh" yves-apple.com)
 

@@ -11,7 +11,7 @@ brew=$(which brew || true)
 
 if [ -z "${brew}" ]; then
 	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-	export PATH=/opt/homebrew/bin:${PATH}
+    eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
 no_update="${1:-}"

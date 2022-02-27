@@ -6,4 +6,4 @@ set -o nounset
 
 dir=$(cd -P -- "$(dirname -- "$0")" && pwd -P)
 
-sudo softwareupdate -i -a
+sudo softwareupdate -i -a --agree-to-license

@@ -11,6 +11,7 @@ root="${dir}/../.."
 
 "${dir}"/install-rosetta.sh
 "${dir}"/install-brews.sh
+"${dir}"/install-oh-my-zsh.sh
 "${dir}"/extract-ssh-keys.sh
 "${dir}"/install-mas.sh
 "${dir}"/node-nvm-setup.sh
@@ -19,4 +20,3 @@ root="${dir}/../.."
 "${dir}"/initialize-gitrepos.sh
 "${dir}"/switch-homedir-to-ssh-repo.sh
 "${dir}"/run-osx-softwareupdates.sh
-"${dir}"/install-oh-my-zsh.sh
