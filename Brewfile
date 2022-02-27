@@ -11,10 +11,11 @@ brew 'tree'
 cask 'iterm2'
 brew 'zsh'
 brew 'zsh-syntax-highlighting'
-tap 'sambadevi/powerlevel9k'
-brew 'powerlevel9k'
+tap "romkatv/powerlevel10k"
+brew "powerlevel10k"
 tap 'homebrew/cask-fonts'
 cask 'font-hack-nerd-font'
+cask 'font-menlo-for-powerline'
 brew 'bitwarden-cli'
 cask 'dropbox'
 brew 'nmap'

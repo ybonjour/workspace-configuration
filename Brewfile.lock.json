@@ -785,6 +785,14 @@
             }
           }
         }
+      },
+      "romkatv/powerlevel10k/powerlevel10k": {
+        "version": "1.16.1",
+        "bottle": false
+      },
+      "powerlevel10k": {
+        "version": "1.16.1",
+        "bottle": false
       }
     },
     "cask": {
@@ -931,6 +939,12 @@
         "options": {
           "full_name": "vlc"
         }
+      },
+      "font-menlo-for-powerline": {
+        "version": "latest",
+        "options": {
+          "full_name": "font-menlo-for-powerline"
+        }
       }
     },
     "tap": {
@@ -948,6 +962,9 @@
       },
       "homebrew/cask-drivers": {
         "revision": "676b9f5d0567fcc5edb45e82d89d9f6e721cbc04"
+      },
+      "romkatv/powerlevel10k": {
+        "revision": "4c915e3b3df520eea149c1fbde6a427d99b52c34"
       }
     }
   },
@@ -956,10 +973,10 @@
       "monterey": {
         "HOMEBREW_VERSION": "3.3.16",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "55d549a35b08a6ab4499921d853aa564d694a3f1",
-        "CLT": "13.0.0.0.1.1627064638",
+        "Homebrew/homebrew-core": "1feed63ac8d53b2cde767f71e99f57b292562153",
+        "CLT": "13.2.0.0.1.1638488800",
         "Xcode": "13.2.1",
-        "macOS": "12.2"
+        "macOS": "12.2.1"
       }
     }
   }
