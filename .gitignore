@@ -2,6 +2,7 @@
 .aws/
 .azure/
 .bundle/
+.cache/
 .dotnet/
 .eclipse/
 .librarymanager/
