@@ -18,6 +18,7 @@ cask 'font-hack-nerd-font'
 cask 'font-menlo-for-powerline'
 brew 'bitwarden-cli'
 cask 'dropbox'
+cask 'google-drive'
 brew 'nmap'
 
 # development
@@ -61,3 +62,4 @@ cask 'spotify'
 tap 'homebrew/cask-drivers'
 cask 'sonos'
 cask 'vlc'
+cask 'snagit'
