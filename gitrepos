@@ -20,7 +20,6 @@ rethinc/vld/public-api git@bitbucket.org:re-thinc/public-api.git
 rethinc/witschi/chrono-master-air-ios git@bitbucket.org:re-thinc/witschi-chrono-master-air-ios.git
 rethinc/website	git@bitbucket.org:re-thinc/website.git
 rethinc/kotlin	 git@bitbucket.org:re-thinc/rethinc-kotlin.git
-rethinc/android	git@bitbucket.org:re-thinc/rethinc-android.git
 rethinc/runtimes	git@bitbucket.org:re-thinc/runtimes.git
 rethinc/signing	git@bitbucket.org:re-thinc/rethinc-signing.git
 rethinc/dev-tools-deployment git@bitbucket.org:re-thinc/dev-tools-deployment.git
@@ -29,6 +28,8 @@ rethinc/lmvsg/app-ios git@bitbucket.org:re-thinc/lmvsg-app-ios.git
 rethinc/revisit git@github.com:rethinc/revisit.git
 rethinc/gvb/ccm-cockpit git@bitbucket.org:re-thinc/ccm-cockpit.git
 rethinc/rephrase git@github.com:rethinc/rephrase.git
+rethinc/reinstall git@github.com:rethinc/reinstall.git
+rethinc/vue-starter git@github.com:rethinc/vue-starter.git
 tooltime/aws-tooling git@github.com:tooltime2019/aws-tooling.git
 tooltime/engineering git@github.com:tooltime2019/engineering.git 
 tooltime/mobile git@github.com:tooltime2019/mobile.git 
