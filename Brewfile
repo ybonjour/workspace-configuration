@@ -44,6 +44,7 @@ cask 'visual-studio'
 brew 'pidcat'
 brew 'carthage'
 brew 'v8' # for ruby
+brew 'gnupg' # for rvm
 
 
 # usability
@@ -55,6 +56,7 @@ cask 'gnucash'
 
 # media
 cask 'google-chrome'
+cask 'firefox'
 cask 'slack'
 cask 'skype'
 cask 'kindle'

@@ -15,6 +15,8 @@ root="${dir}/../.."
 "${dir}"/extract-ssh-keys.sh
 "${dir}"/install-mas.sh
 "${dir}"/install-express-vpn.sh
+"${dir}"/install-obs.sh
+"${dir}"/install-rvm.sh
 "${dir}"/node-nvm-setup.sh
 "${dir}"/extract-btt-license.sh
 "${dir}"/customize-dock.sh
