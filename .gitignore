@@ -66,6 +66,7 @@ cocoapods/
 .zcompdump*
 Applications/
 better-touch-tool-license
+DataGripProjects/
 Desktop/
 Documents/
 Downloads/
@@ -73,8 +74,10 @@ Dropbox/
 Library/
 Movies/
 Music/
+My\ Drive*
 Nextcloud/
 pgadmin.log
 Pictures/
 Public/
 dev/
+*Google\ Drive*
