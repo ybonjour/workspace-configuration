@@ -20,6 +20,7 @@ brew 'bitwarden-cli'
 cask 'dropbox'
 cask 'google-drive'
 brew 'nmap'
+brew 'graphviz'
 
 # development
 brew 'terraform'
@@ -45,6 +46,10 @@ brew 'pidcat'
 brew 'carthage'
 brew 'v8' # for ruby
 brew 'gnupg' # for rvm
+brew 'tfenv'
+brew 'awsudo'
+brew 'circleci'
+brew 'dagger/tap/dagger'
 
 
 # usability
