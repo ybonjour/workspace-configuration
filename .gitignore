@@ -3,6 +3,7 @@
 .azure/
 .bundle/
 .cache/
+.circleci/
 .dotnet/
 .eclipse/
 .librarymanager/
