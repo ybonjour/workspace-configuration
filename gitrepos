@@ -26,10 +26,13 @@ rethinc/dev-tools-deployment git@bitbucket.org:re-thinc/dev-tools-deployment.git
 rethinc/gcp-toolbelt git@bitbucket.org:re-thinc/gcp-toolbelt.git
 rethinc/lmvsg/app-ios git@bitbucket.org:re-thinc/lmvsg-app-ios.git
 rethinc/revisit git@github.com:rethinc/revisit.git
-rethinc/gvb/ccm-cockpit git@bitbucket.org:re-thinc/ccm-cockpit.git
+rethinc/gvb/ccm git@ssh.dev.azure.com:v3/gv-bern/CCM/CCM
 rethinc/rephrase git@github.com:rethinc/rephrase.git
 rethinc/reinstall git@github.com:rethinc/reinstall.git
 rethinc/vue-starter git@github.com:rethinc/vue-starter.git
+rethinc/chmedia/radio-bern1-android git@bitbucket.org:re-thinc/radio-bern1-android.git
+rethinc/chmedia/radio-bern1-ios git@bitbucket.org:re-thinc/radio-bern1-ios.git
+rethinc/rethinc-website git@bitbucket.org:re-thinc/rethinc-website.git
 tooltime/aws-tooling git@github.com:tooltime2019/aws-tooling.git
 tooltime/engineering git@github.com:tooltime2019/engineering.git 
 tooltime/mobile git@github.com:tooltime2019/mobile.git 
@@ -42,4 +45,5 @@ tooltime/wisag-import git@github.com:tooltime2019/wisag-import.git
 tooltime/wisag-export git@github.com:tooltime2019/wisag-export.git
 tooltime/bauer git@github.com:tooltime2019/bauer.git
 tooltime/ids-bff git@github.com:tooltime2019/ids-bff.git
+tooltime/gitops git@github.com:tooltime2019/gitops.git
 ffhs/esa git@github.com:ybonjour/ffhs-esa-admin.git
