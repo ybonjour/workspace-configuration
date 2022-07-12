@@ -50,6 +50,7 @@ brew 'tfenv'
 brew 'awsudo'
 brew 'circleci'
 brew 'dagger/tap/dagger'
+brew 'mitmproxy'
 
 
 # usability
@@ -70,3 +71,4 @@ tap 'homebrew/cask-drivers'
 cask 'sonos'
 cask 'vlc'
 cask 'snagit'
+cask 'gimp'
