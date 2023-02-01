@@ -1,0 +1,11 @@
+export JAVA_17_HOME=$(/usr/libexec/java_home -v 17)
+export JAVA_11_HOME=$(/usr/libexec/java_home -v 11.0.11)
+export JAVA_8_HOME=$(/usr/libexec/java_home -v 1.8.0_242)
+export JAVA_11_GRAAL_HOME="/Library/Java/JavaVirtualMachines/graalvm-ce-java11-22.2.0/Contents/Home"
+
+alias java17="export JAVA_HOME=$JAVA_17_HOME"
+alias java11="export JAVA_HOME=$JAVA_11_HOME"
+alias java8="export JAVA_HOME=$JAVA_8_HOME"
+alias javaGraal="export JAVA_HOME=$JAVA_11_GRAAL_HOME"
+
+java17

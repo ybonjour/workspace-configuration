@@ -16,11 +16,13 @@ source $ZSH/oh-my-zsh.sh
 source ~/.aliases
 source ~/.npm-completion
 source ~/.android-profile
+source ~/.java-setup
 
-DEFAULT_JAVA_VERSION=11
 DEV_ROOT=~/dev
 HOME_BIN=~/scripts/bin
-export JAVA_HOME="$(/usr/libexec/java_home -v ${DEFAULT_JAVA_VERSION})"
+
+
+
 export ANDROID_SDK_ROOT=~/Library/Android/sdk
 export ANDROID_HOME=~/Library/Android/sdk
 export GOPATH="${DEV_ROOT}/go"
@@ -32,8 +34,25 @@ source $(brew --prefix nvm)/nvm.sh
 source $(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc
 source $(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc
 
+# ToolTime
+alias tt-production="KUBECONFIG=~/.kube/production awsudo -u tooltime-production"
+alias tt-staging="KUBECONFIG=~/.kube/staging awsudo -u tooltime-staging"
+alias tt-internal="KUBECONFIG=~/.kube/internal awsudo -u tooltime-internal"
+alias tt-test="KUBECONFIG=~/.kube/test awsudo -u tooltime-test"
+alias tt="cd ~/dev/tooltime/aws-tooling;"
+export GOOGLE_APPLICATION_CREDENTIALS=~/.config/gcloud/tooltime-terraform.json
+
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
+
+# Add python bins to path
+export PATH=$PATH:$(python3 -m site --user-base)/bin
+
+# Golang
+export PATH=${PATH}:/usr/local/go/bin
+
+
